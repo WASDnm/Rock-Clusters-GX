@@ -1,0 +1,12 @@
+Xv = 0;
+Yv = 0;
+spd = 3.5;
+jumps = 0;
+max_jumps = 2;
+collision = [oWallTest,oStartingPlatform,oWalls];
+gamepad_set_axis_deadzone(0,0.5);
+start_x = x;
+start_y = y;
+walljumps = 0;
+max_walljumps = 1;
+nair_cooldown = 0;

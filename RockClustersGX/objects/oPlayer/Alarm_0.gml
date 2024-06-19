@@ -1,0 +1,1 @@
+nair_cooldown = 0;

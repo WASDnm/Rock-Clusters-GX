@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfxTitleJingle",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":5.433469,
+  "name":"sfxTitleJingle",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":32000,
+  "soundFile":"sfxTitleJingle.mp3",
+  "type":1,
+  "volume":0.5,
+}
