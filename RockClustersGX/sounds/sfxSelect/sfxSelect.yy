@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":3.424943,
+  "duration":3.4249432,
   "name":"sfxSelect",
   "parent":{
     "name":"Sounds",

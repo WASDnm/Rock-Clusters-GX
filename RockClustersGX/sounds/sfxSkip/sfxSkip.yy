@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":0.384,
+  "duration":0.35789114,
   "name":"sfxSkip",
   "parent":{
     "name":"Sounds",

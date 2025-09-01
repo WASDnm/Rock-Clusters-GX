@@ -10,11 +10,11 @@ var walljumping = (can_wall_jump) && (jump) && (x_direction != 0)
 if (x_direction != 0) image_xscale = x_direction;
 Xv = x_direction * spd;
 
-Yv += 0.8;
+Yv += 0.7;
 
 if (can_wall_jump) && (jump) && (x_direction != 0){
 	if (!instance_exists(oWallJumpEffect)) instance_create_layer(x + 16 * image_xscale,y,layer,oWallJumpEffect);
-	Yv = -9;
+	Yv = -8;
 		walljumps++;
 }
 	
@@ -23,7 +23,7 @@ if (jump) && on_the_ground
 		jumps = 1;
 		 if (jumps == 1) {
 			 audio_play_sound(sfxJump,0,false);
-		 Yv = -9;
+		 Yv = -8;
 		}
  } else {
 	 if on_the_ground jumps = 0;
@@ -31,7 +31,7 @@ if (jump) && on_the_ground
 		 jumps++;
 		 if (jumps == 2) {
 			 audio_play_sound(sfxJump,0,false,1,0,1.1);
-			 Yv = -7;
+			 Yv = -6;
 			 } else {
 				 if (jumps > 2) {
 					 jumps = 0;
@@ -49,26 +49,29 @@ if (atk) {
 		}
 	} else {
 if (!on_the_ground) {
+	sprite_index = sJettis;
 	image_index = 2;
 } else {
 	if (x_direction != 0) {
-	image_index = 1;
+		sprite_index = sJettisWalk;
 	} else {
+		sprite_index = sJettis;
 		image_index = 0;
 	}
 }
 	}
 	
-if (y < 0) {
+if (y < -30) {
 	x = start_x;
 	y = start_y;
 	Xv = 0;
 	Yv = 0;
 	instance_destroy(oWallTest);
 repeat (20) {
-	instance_create_layer(oGame.x + irandom_range(-5,3),oGame.y + irandom_range(-80,70),layer,oWallTest);
+	instance_create_layer(oGame.x + irandom_range(-5,3 * (global.score/2)),oGame.y + irandom_range(-80 - (global.score/2),70),layer,oWallTest);
 }
 global.score += 1;
+global.money = (global.score * 1.2) - 1.2
 global.resetsleft += 1;
 }
 

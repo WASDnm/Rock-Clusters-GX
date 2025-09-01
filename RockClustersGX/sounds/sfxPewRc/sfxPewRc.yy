@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":0.496327,
+  "duration":0.46927437,
   "name":"sfxPewRc",
   "parent":{
     "name":"Sounds",

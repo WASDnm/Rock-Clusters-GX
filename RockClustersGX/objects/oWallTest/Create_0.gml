@@ -1,5 +1,5 @@
 image_angle = random_range(0,180);
-image_index = irandom_range(0,4);
+image_index = irandom_range(0,5);
 image_xscale = random_range(0.7,2);
 image_yscale = image_xscale;
 if (image_xscale == 0) image_xscale = 1;

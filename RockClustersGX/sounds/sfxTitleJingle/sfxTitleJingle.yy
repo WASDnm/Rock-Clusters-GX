@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":5.433469,
+  "duration":5.3903174,
   "name":"sfxTitleJingle",
   "parent":{
     "name":"Sounds",

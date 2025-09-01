@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.27219954,
   "name":"sfxJump",
   "parent":{
     "name":"Sounds",

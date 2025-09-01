@@ -18,6 +18,7 @@
     {"$GMSpriteFrame":"","%Name":"339c77dd-e032-490b-ac12-c7468a81b631","name":"339c77dd-e032-490b-ac12-c7468a81b631","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"5f430ecf-e54b-4e9c-a6da-002850ea5737","name":"5f430ecf-e54b-4e9c-a6da-002850ea5737","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"a792f3ab-6aa2-4ae7-8495-13ea7f50c4d1","name":"a792f3ab-6aa2-4ae7-8495-13ea7f50c4d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"3205d6d6-0b58-45eb-9a59-1239b0ee066e","name":"3205d6d6-0b58-45eb-9a59-1239b0ee066e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -37,7 +38,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sJettis",
     "autoRecord":true,
     "backdropHeight":768,
@@ -54,7 +55,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":6.0,
+    "length":7.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -68,6 +69,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":28.0,
+    "seqWidth":13.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
@@ -91,6 +94,9 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a792f3ab-6aa2-4ae7-8495-13ea7f50c4d1","path":"sprites/sJettis/sJettis.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"246f5037-4d65-4ab1-921a-9dc4889dd3f2","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3205d6d6-0b58-45eb-9a59-1239b0ee066e","path":"sprites/sJettis/sJettis.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7545a588-02ed-4530-9f06-afe22fb84165","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

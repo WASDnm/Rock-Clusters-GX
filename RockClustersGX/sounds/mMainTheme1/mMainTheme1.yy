@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"mMainTheme",
+  "%Name":"mMainTheme1",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":320,
   "compression":1,
   "conversionMode":0,
-  "duration":92.29061,
-  "name":"mMainTheme",
+  "duration":92.25998,
+  "name":"mMainTheme1",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mMainTheme.mp3",
+  "soundFile":"mMainTheme1.mp3",
   "type":1,
   "volume":0.9,
 }

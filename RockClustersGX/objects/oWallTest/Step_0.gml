@@ -5,3 +5,5 @@ if ((place_meeting(x,y-1,oPlayer)) || (place_meeting(x + 1,y,oPlayer)) || (place
 	oPlayer.x = oPlayer.start_x;
 	oPlayer.y = oPlayer.start_y;
 }
+
+if (image_xscale < 0.1) instance_destroy();

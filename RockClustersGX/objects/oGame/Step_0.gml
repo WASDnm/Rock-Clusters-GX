@@ -24,12 +24,16 @@ repeat (20) {
 global.resetsleft--;
 }
 }
+
+if (!audio_is_playing(mMainTheme1)) && (!audio_is_playing(mMainTheme2)) && (room == Room1) audio_play_sound(asset_get_index(string_join("","mMainTheme",irandom_range(1,2))),0,false);
+
+
 } else {
 if (keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter) || gamepad_button_check(0,gp_face1)) {
 	if (circle_y == 506) {
 	room = Room1;
 	} else {
-		game_end();
+		room = Room3;
 	}
 }
 }

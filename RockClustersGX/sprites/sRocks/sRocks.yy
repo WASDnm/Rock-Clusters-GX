@@ -5,7 +5,7 @@
   "bbox_bottom":35,
   "bbox_left":7,
   "bbox_right":41,
-  "bbox_top":16,
+  "bbox_top":14,
   "collisionKind":4,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -17,6 +17,7 @@
     {"$GMSpriteFrame":"","%Name":"70a8372b-2ed7-4ea2-96ce-a661de934c04","name":"70a8372b-2ed7-4ea2-96ce-a661de934c04","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"b864345e-4238-4401-8d3c-f4f8df77bb47","name":"b864345e-4238-4401-8d3c-f4f8df77bb47","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"d2078e8d-3236-4479-8648-93b7a42cb46d","name":"d2078e8d-3236-4479-8648-93b7a42cb46d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d27dd1ed-c29c-486b-b568-0059f9b63b8f","name":"d27dd1ed-c29c-486b-b568-0059f9b63b8f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -36,7 +37,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sRocks",
     "autoRecord":true,
     "backdropHeight":768,
@@ -53,7 +54,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":5.0,
+    "length":6.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -67,6 +68,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":50.0,
+    "seqWidth":50.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
@@ -87,6 +90,9 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d2078e8d-3236-4479-8648-93b7a42cb46d","path":"sprites/sRocks/sRocks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"4fe5dcbb-f5b9-4dcc-8413-57a49cff5c9b","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d27dd1ed-c29c-486b-b568-0059f9b63b8f","path":"sprites/sRocks/sRocks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"af4e8efd-9e23-42d2-b024-0af5d3b76348","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
