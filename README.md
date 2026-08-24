@@ -10,7 +10,7 @@ Since every section is randomly-generated, not all of them are possible. You can
 * The soundtrack was made using Bandlab and Soundtrap.
 * Other sound effects come from freesound.org
 ## What version is this?
-The latest commit is from the v1.2.0 beta. You can read all about it [here](https://wasdnm.itch.io/rock-clusters-gx/devlog/1021782/v120-beta).
+v1.2.0 is currently in development. All commits named with the RCGXa.b.c.mmddyyyy format are development versions.
 ## Licenses
 * The game's sprites, graphics, and soundtrack are released under the [	Creative Commons Attribution NonCommercial v4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 * The sound effects (excluding the soundtrack) are released under the [Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0/) license.
