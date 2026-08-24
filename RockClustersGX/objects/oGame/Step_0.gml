@@ -1,6 +1,11 @@
 if (room == Room1) {
-if (keyboard_check_pressed(vk_backspace)) { room = Room2;
-	audio_stop_all(); }
+if (keyboard_check_pressed(vk_backspace)) || (keyboard_check_pressed(vk_escape)) { 
+	ini_open("highscore.ini") {
+		ini_write_real("Score","allmoney",global.allmoney + global.money);
+	}
+	room = Room2;
+	audio_stop_all(); 
+	}
 if (global.score > global.highscore) {
 	global.highscore = global.score;
 	ini_open("highscore.ini") {

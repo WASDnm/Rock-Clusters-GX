@@ -1,6 +1,6 @@
 Xv = 0;
 Yv = 0;
-spd = 2.5;
+spd = 2.5 + (global.ug_speed / 2);
 jumps = 0;
 max_jumps = 2;
 collision = [oWallTest,oStartingPlatform,oWalls];

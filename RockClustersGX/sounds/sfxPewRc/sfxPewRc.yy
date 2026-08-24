@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"sfxPewRc",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":3,
+  "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.46927437,
+  "duration":0.46928126,
+  "exportDir":"",
   "name":"sfxPewRc",
   "parent":{
     "name":"Sounds",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":32000,
   "soundFile":"sfxPewRc.mp3",
-  "type":0,
   "volume":0.1,
 }

@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"mUpgrades",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":320,
+  "channelFormat":1,
   "compression":1,
+  "compressionQuality":9,
   "conversionMode":0,
   "duration":63.78465,
+  "exportDir":"",
   "name":"mUpgrades",
   "parent":{
     "name":"Sounds",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"mUpgrades.mp3",
-  "type":1,
   "volume":0.26,
 }

@@ -7,19 +7,18 @@ global.resetsleft = 15;
 global.highscore = 0;
 global.money = 0;
 global.allmoney = 0;
+global.ug_jump = 0;
+global.ug_speed = 0;
 up_update = 0;
 down_update = 0;
 gamepad_set_axis_deadzone(0,0.5);
-if (file_exists("highscore.ini")) {
 ini_open("highscore.ini") {
-	global.highscore = ini_read_real("Score","highscore",global.highscore);
-	global.allmoney = ini_read_real("Score","allmoney",global.allmoney);
+	global.highscore = ini_read_real("Score","highscore",0);
+	global.allmoney = ini_read_real("Score","allmoney",0);
+	global.ug_jump = ini_read_real("Upgrades","jump",0);
+	global.ug_speed = ini_read_real("Upgrades","speed",0);
 }
 ini_close();
-} else {
-	global.money = 0;
-	global.allmoney = 0;
-}
 
 if (room == Room1) {
 	if (audio_is_playing(sfxTitleJingle)) audio_stop_sound(sfxTitleJingle);

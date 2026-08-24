@@ -6,6 +6,7 @@ var can_wall_jump = place_meeting(x + 1 * image_xscale,y,collision);
 var atk = keyboard_check(ord("M")) || keyboard_check(ord("Z")) || gamepad_button_check(0,gp_face3) || gamepad_button_check(0,gp_shoulderrb); 
 var atkrelease = atk = keyboard_check_pressed(ord("M")) || keyboard_check_pressed(ord("Z"))|| gamepad_button_check_pressed(0,gp_face3) || gamepad_button_check_pressed(0,gp_shoulderrb);
 var walljumping = (can_wall_jump) && (jump) && (x_direction != 0)
+var fastfall = keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down) || (gamepad_axis_value(0,gp_axislv) > 0)
 
 if (x_direction != 0) image_xscale = x_direction;
 Xv = x_direction * spd;
@@ -23,7 +24,7 @@ if (jump) && on_the_ground
 		jumps = 1;
 		 if (jumps == 1) {
 			 audio_play_sound(sfxJump,0,false);
-		 Yv = -8;
+		 Yv = -8 - (global.ug_jump/2);
 		}
  } else {
 	 if on_the_ground jumps = 0;
@@ -39,7 +40,8 @@ if (jump) && on_the_ground
 				}
 			}
 		}
-	 
+		
+if (fastfall) Yv = 8;
 
 if (atk) {
 		image_index = 3;
