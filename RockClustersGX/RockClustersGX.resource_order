@@ -45,6 +45,7 @@
     {"name":"sRocks","order":3,"path":"sprites/sRocks/sRocks.yy",},
     {"name":"sRocksAttack","order":4,"path":"sprites/sRocksAttack/sRocksAttack.yy",},
     {"name":"sRocksEnemy","order":5,"path":"sprites/sRocksEnemy/sRocksEnemy.yy",},
+    {"name":"sRocksStand","order":12,"path":"sprites/sRocksStand/sRocksStand.yy",},
     {"name":"sWallJump","order":8,"path":"sprites/sWallJump/sWallJump.yy",},
   ],
 }

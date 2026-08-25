@@ -72,6 +72,7 @@
     {"id":{"name":"sRocks","path":"sprites/sRocks/sRocks.yy",},},
     {"id":{"name":"sRocksAttack","path":"sprites/sRocksAttack/sRocksAttack.yy",},},
     {"id":{"name":"sRocksEnemy","path":"sprites/sRocksEnemy/sRocksEnemy.yy",},},
+    {"id":{"name":"sRocksStand","path":"sprites/sRocksStand/sRocksStand.yy",},},
     {"id":{"name":"sStartingPlatform","path":"sprites/sStartingPlatform/sStartingPlatform.yy",},},
     {"id":{"name":"sWallJump","path":"sprites/sWallJump/sWallJump.yy",},},
   ],

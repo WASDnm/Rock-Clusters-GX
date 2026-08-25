@@ -5,6 +5,7 @@ image_yscale = image_xscale;
 if (image_xscale == 0) image_xscale = 1;
 
 enemy = irandom_range(1,3);
+standable = irandom_range(1,6);
 attackable = 0;
 repeat (10) x -= irandom_range(-6,20);
 
@@ -17,5 +18,6 @@ if (enemy == 1) {
 		sprite_index = sRocksEnemy;
 	}
 } else {
+	if (standable == 1) sprite_index = sRocksStand; else
 	sprite_index = sRocks;
 }
